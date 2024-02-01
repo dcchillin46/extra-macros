@@ -27,15 +27,21 @@ If you've installed <a href="https://github.com/kyleisah/Klipper-Adaptive-Meshin
  - _Create a symbolic link between the clone repository and the printers config folder_
  - _Create a copy of the extra_macros.cfg for local editing that wont invalidate (dirty) the local files_
 
-**3. (Optional) Open moonraker.cfg through SSH or your front end of choice (fluidd, Mainsail, etc) and add:**
+</br>
 
+**3. Open printer.cfg through SSH or your front end of choice (fluidd, Mainsail, etc) and add:**
+```
+[include extra_macros.cfg]
+```
+</br>
+
+**4. (Optional) Open moonraker.cfg and add:**
 ```
 [update_manager]
 channel: dev
 refresh_interval: 168
 ```
 _This enables Moonraker Update Manager with a refresh rate of once every 7 days_
-</br>
 </br>
 ```
 [update_manager extra-macros]
@@ -45,15 +51,14 @@ origin: https://github.com/dcchillin46/extra-macros.git
 managed_services: klipper
 primary_branch: main
 ```
-_This will allow moonraker to handle updating the extra_macros.cfg with any changes pushed to the repo_
+_This will allow moonraker to handle updating the extra_macros.cfg with changes pushed to the repo_
 
 <h2>Alternatively:</h2>
 1. Download raw extra_macros.cfg from repo </br>
 2. Place in ~/printer_data/config
 </br>
-</br>
 
-*This method will require manual updating*
+**This method will require manual updating*
 
 </br>
 </br>
