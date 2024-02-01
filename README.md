@@ -21,14 +21,22 @@ If you've installed <a href="https://github.com/kyleisah/Klipper-Adaptive-Meshin
    cp ~/extra-macros/extra_macros.cfg ~/printer_data/config/extra-macros/extra_macros.cfg
  
   ```
-_This will:_
-- _Change to the home directory (mks for Neptune 4)_
-- _Clone the extra-macros repo_
-- _Create a symbolic link between the clone repository and the printers config folder_
-- _Create a copy of the extra_macros.cfg for local editing that wont invalidate (dirty) the local files_
+ _This will:_
+ - _Change to the home directory (mks for Neptune 4)_
+ - _Clone the extra-macros repo_
+ - _Create a symbolic link between the clone repository and the printers config folder_
+ - _Create a copy of the extra_macros.cfg for local editing that wont invalidate (dirty) the local files_
 
 **3. (Optional) Open moonraker.cfg through SSH or your front end of choice (fluidd, Mainsail, etc) and add:**
 
+```
+[update_manager]
+channel: dev
+refresh_interval: 168
+```
+_This enables Moonraker Update Manager with a refresh rate of once every 7 days_
+</br>
+</br>
 ```
 [update_manager extra-macros]
 type: git_repo
