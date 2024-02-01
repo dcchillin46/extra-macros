@@ -26,7 +26,7 @@ _This will:_
 - _Create a symbolic link between the clone repository and the printers config folder_
 - _Create a copy of the extra_macros.cfg for local editing that wont invalidate (dirty) the local files_
 
-**3. (Optional) Open moonraker.cfg through the terminal or your front end of choice (fluidd, Mainsail, etc) and add:**
+**3. (Optional) Open moonraker.cfg through SSH or your front end of choice (fluidd, Mainsail, etc) and add:**
 
 ```
 [update_manager extra-macros]
