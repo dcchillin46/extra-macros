@@ -1,6 +1,7 @@
 <h1 align="center"> Extra Macros </h1>
-  <h4 align="center"> Useful Macros for Common Functions and Tuning </h4>
+  <p align="center"><i>Useful Macros for Common Functions and Tuning </i></p>
     <br>
+  <p align="center">Written with a Neptune 4 Pro on <a href="https://github.com/OpenNeptune3D/OpenNept4une">Open Nept4une</a> firmware. However, the macros should be useful for any Klipper printer </p>
 
 <h2 align="left"> Installation:</h2>
 If you've installed <a href="https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging">KAMP</a> then it should be fairly familiar. With advice from its author, Kyleisah, I've essentially copied the process.</p>
@@ -36,7 +37,7 @@ origin: https://github.com/dcchillin46/extra-macros.git
 managed_services: klipper
 primary_branch: main
 ```
-This will allow moonraker to handle updating the extra_macros.cfg with any changes pushed to the repo
+_This will allow moonraker to handle updating the extra_macros.cfg with any changes pushed to the repo_
 
 <h2>Alternatively:</h2>
 1. Download raw extra_macros.cfg from repo </br>
