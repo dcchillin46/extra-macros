@@ -18,7 +18,7 @@ If you've installed <a href="https://github.com/kyleisah/Klipper-Adaptive-Meshin
  
    ln -s ~/extra-macros ~/printer_data/config/extra-macros
 
-   cp ~/extra-macros/extra_macros.cfg ~/printer_data/config/extra-macros/extra_macros.cfg
+   cp ~/extra-macros/extra_macros.cfg ~/printer_data/config/extra_macros.cfg
  
   ```
  _This will:_
