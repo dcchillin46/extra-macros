@@ -54,9 +54,13 @@ primary_branch: main
 _This will allow moonraker to handle updating the extra_macros.cfg with changes pushed to the repo_
 
 <h2>Alternatively:</h2>
-1. Download raw extra_macros.cfg from repo </br>
+1. Download raw extra_macros.cfg from repo 
+</br>
 2. Place in ~/printer_data/config
 </br>
+3. Add [include extra_macros.cfg] to printer.cfg
+</br>
+
 
 **This method will require manual updating*
 
