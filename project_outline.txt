@@ -1,0 +1,42 @@
+#####################################################################
+#	                   Custom Macros
+#                    *Project Outline*
+#####################################################################
+
+Goal:
+	Assemble a list of macros for new (and lazy) users consisting of common functions and resources.  
+When possible intgrating console and machine feedback to make printing easier to learn and enjoy.
+	
+	Including macros for:
+		Common functions- i.e. Filament Load
+		Resources- i.e. Klipper Docs
+		Tuning- i.e. Extruder Calibration
+
+As I learn to print I have found myself returning to the same sites repeatedly to find commands and processes. 
+This project is a an attempt to create, where possible, "Easy Buttons" for common functions and processes. I have tried to itegrate console 
+feedback to notify the users of macro purpose, process information, and macro progress to eliminate any confusing stalls that new users 
+may experience (i.e. waiting for heater temp). Some of these commands also utilize a hardware beeper to further notify the user as well. 
+
+
+#####################################################################
+#	              Consistency Guidelines                    
+#####################################################################
+
+Keep macros as universal as possible. Callouts to spcific haardware or settings should be minimized
+	When Required, notate/comment in code advising users how it may be changed to suite their hardware "#Remove this beeper line if not configured locally"
+
+Utilize RESPOND command to provide console feedback
+	Common prefixes:
+		"Description:" an overview of the macro function or goal
+		"Process:" when the message contains links to an established processes or equations (i.e. extruder calibration docs )
+		"Macro:" provides feedback on current progress of the macro (i.e. waiting on heaters)
+
+Minimize bloat and duplication of frontend features
+	Printer lights are generally available on the dashboard, a macro is not necessary
+	Additional macros for uncommon or specific temps can be made locally or use frontend 
+	
+Link to related documents
+	Extruder calibration links to Ellis tuning guide page
+	Preferably in console when possible or comment in .cfg
+
+If you would like attribution feel free to comment your name by the macro header
