@@ -67,4 +67,4 @@ _This will allow moonraker to handle updating the extra_macros.cfg with changes 
 </br>
 </br>
 
-<h5>It's probably pretty evident I'm new to all of this. If you run into any issues with the macros, install process, or updater please let me know and I'll try to refine things as I can.</h5>
+<h5>It's probably pretty evident I'm new to all of this. If you run into any issues with the macros, install process, or updater please let me know and I'll try to refine things as I can. Expect frequent, minor updates as I learn</h5>
