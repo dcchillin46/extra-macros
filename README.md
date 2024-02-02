@@ -22,7 +22,7 @@ If you've installed <a href="https://github.com/kyleisah/Klipper-Adaptive-Meshin
  
   ```
  _This will:_
- - _Change to the home directory (mks for Neptune 4)_
+ - _Change to the home directory_
  - _Clone the extra-macros repo_
  - _Create a symbolic link between the clone repository and the printers config folder_
  - _Create a copy of the extra_macros.cfg for local editing that wont invalidate (dirty) the local files_
